@@ -1,0 +1,42 @@
+/* Empty. Add your own CSS if you like */
+
+.center {
+    text-align: right;
+    padding-right: 10%;
+}
+.col-demo {
+    background-color: lightgrey;
+}
+.col {
+    background-color: lightgrey;
+}
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Aligner-item {
+    padding-bottom: 40%;
+}
+.fp1 {
+    background-color: #FFF !important;
+}
+.fp1 img {
+    max-width: 150px;
+    padding-top: 0px;
+}
+.fp1 h3 {
+    text-align: center;
+    color: #0090c5;
+    text-decoration: none;
+}
+.fp1 a {
+    text-decoration: none;
+    text-align: center;
+}
+
+/*
+.calendar {
+    padding: 20px;
+}
+*/

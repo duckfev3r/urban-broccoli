@@ -1,0 +1,68 @@
+<ion-view view-title="Elements">
+    <ion-content>
+        <div class="list card">
+
+
+        </div>
+        <div class="card">
+            <div class="item item-divider">
+                <h2>Elements</h2>
+            </div>
+            <div class="item item-text-wrap">
+                This is a basic Card with some text.
+            </div>
+            <div class="item item-divider">
+                I'm a Footer in a Card!
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-divider">
+                <h2>Form Elements</h2>
+            </div>
+            <div class="item item-text-wrap">
+                <ul class="ion-list">
+                    <li class="item item-toggle">
+                        HTML5
+                        <label class="toggle toggle-positive">
+                            <input type="checkbox" checked="">
+                            <div class="track">
+                                <div class="handle"></div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class="item item-toggle">
+                        CSS3
+                        <label class="toggle toggle-calm">
+                            <input type="checkbox" checked="">
+                            <div class="track">
+                                <div class="handle"></div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class="item item-toggle">
+                        Flashplayer
+                        <label class="toggle toggle-balanced">
+                            <input type="checkbox">
+                            <div class="track">
+                                <div class="handle"></div>
+                            </div>
+                        </label>
+                    </li>
+                    <ion-checkbox ng-model="filter.red">Red</ion-checkbox>
+                    <ion-checkbox ng-model="filter.yellow">Yellow</ion-checkbox>
+                    <ion-checkbox ng-model="filter.pink">Pink</ion-checkbox>
+                </ul>
+                <ion-list>
+                    <ion-radio ng-model="choice" ng-value="'A'">Choose A</ion-radio>
+                    <ion-radio ng-model="choice" ng-value="'B'">Choose B</ion-radio>
+                </ion-list>
+            </div>
+
+        </div>
+        <div class="center">
+            <a href="#/app/columns" class="button icon-right ion-chevron-right button-calm button-black ">Columns</a>
+        </div>
+
+
+    </ion-content>
+</ion-view>
